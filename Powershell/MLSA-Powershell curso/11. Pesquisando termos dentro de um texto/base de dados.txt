@@ -1,0 +1,11 @@
+Powershell é uma linguagem de Script pensada para os usuários avançados e administradores de sistema. É uma ferramenta completa que nos permite manipular o Windows com grande facilidade, ajudando a automatizar e diminuir esforços.
+
+Onde encontrar?
+O Powershell vem nativo no Windows, para os exemplos utilizaremos a versão presente no Windows 10.
+Para inicia-lo, aperte a tecla do Windows junto com X e selecione Powershell, caso essa opção não esteja disponível, pode alterar o Prompt de Comando pelo Powershell em configurações ou iniciar o Prompt e usar o comando: “powershell”
+Também é possível localiza-lo no menu iniciar.
+
+Hello World
+Vamos começar com algo simples para conhecer a plataforma, e a melhor forma de fazer isso é escrever na tela um clássico “Hello World”.
+Com o Powershell aberto, utilize o comando:
+Write-Host “Hello World”
