@@ -61,9 +61,9 @@ function DesligarUsuario {
         $PasswordFile = "\\$SUM\Config\$identificador.pass"
         $key = Get-Content "\\$SUM\Config\$identificador.key"
         # Credencial do AD
-        $credencialDominio = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "SUM@seniorsolution.com.br", (Get-Content $PasswordFile | ConvertTo-SecureString -Key $key)
+        $credencialDominio = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "SUM@empresa.com.br", (Get-Content $PasswordFile | ConvertTo-SecureString -Key $key)
         # Credenciais do Office
-        $credencialOffice = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "SUM@seniorsolution.com.br", (Get-Content $PasswordFile | ConvertTo-SecureString -Key $key)
+        $credencialOffice = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "SUM@empresa.com.br", (Get-Content $PasswordFile | ConvertTo-SecureString -Key $key)
 
         # Conecta no Office 365
         $conexaoOffice365 = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://ps.outlook.com/powershell/' -Credential $credencialOffice -Authentication Basic -AllowRedirection # Configura o acesso

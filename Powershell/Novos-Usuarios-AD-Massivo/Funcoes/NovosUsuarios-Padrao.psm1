@@ -29,7 +29,7 @@ function Novo-UsuarioAD {
     $DominioDC = (Get-ADDomain).DistinguishedName
     $OU = "OU=$OU,$DominioDC"
     $Password = "Mudar123"
-    $DominioOffice365 = "ATTPS.mail.onmicrosoft.com" # Colocar o Dominio Padrao da empresa 
+    $DominioOffice365 = "Empresa.mail.onmicrosoft.com" # Colocar o Dominio Padrao da empresa 
     
     # Cria o  usuario
     try {

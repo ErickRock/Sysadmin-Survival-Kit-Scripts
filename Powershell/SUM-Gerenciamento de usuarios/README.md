@@ -1,5 +1,5 @@
 # SUM
- Sistema de gerenciamento de usuarios, criado para facilitar o processo de admissão e desligamento dentro da Sinqia
+ Sistema de gerenciamento de usuarios, criado para facilitar o processo de admissão e desligamento
 
 ## Como importar um modulo de Powershell? 
 Dentro do Powershell, utilize os comandos:
