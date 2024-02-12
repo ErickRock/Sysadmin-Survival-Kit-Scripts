@@ -122,7 +122,7 @@ $btnNovoUsuario.Add_Click({
         foreach ($usuario in $usuarios) {
             $Nome = $usuario.Nome
             $Sobrenome = $usuario.Sobrenome
-            Novo-UsuarioAD "$Nome" "$Sobrenome" $CredencialAdministrador "$UsuarioReferencia" "$OU" "$hash" "sinqia.com.br" "$caminhoLOGs"
+            Novo-UsuarioAD "$Nome" "$Sobrenome" $CredencialAdministrador "$UsuarioReferencia" "$OU" "$hash" "empresa.com.br" "$caminhoLOGs"
         }
         $resposta = "Procedimento concluido"
     }
